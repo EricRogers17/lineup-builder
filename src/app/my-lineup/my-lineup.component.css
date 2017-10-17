@@ -1,0 +1,13 @@
+.lineup-component {
+  display: flex;
+  flex-direction: column;
+  /*max-height: 500px;
+  min-width: 300px;*/
+  margin-top: 15px;
+  border: 2px solid indigo;
+}
+
+.mat-selection-list {
+  overflow: auto;
+  max-height: 500px;
+}

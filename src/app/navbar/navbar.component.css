@@ -1,0 +1,10 @@
+.example-fill-remaining-space {
+  flex: 1 1 auto;
+}
+span {
+  padding: 5px;
+}
+.import-button {
+  background-color: white;
+  color: black;
+}

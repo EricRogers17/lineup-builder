@@ -1,0 +1,13 @@
+.component {
+  width: 100%;
+  overflow: hidden; /* will contain if #first is longer than #second */
+}
+.player-list {
+  width: 65%;
+  float:left; /* add this */
+  padding-right: 15px;
+}
+.lineup {
+  width: 35%;
+  overflow: hidden; /* if you don't want #second to wrap below #first*/
+}
