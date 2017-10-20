@@ -7,7 +7,8 @@ import {
   MatToolbarModule,
   MatButtonModule,
   MatTableModule,
-  MatListModule } from '@angular/material';
+  MatListModule
+} from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';

@@ -4,7 +4,19 @@
 span {
   padding: 5px;
 }
-.import-button {
+.importfile {
+  width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.importlabel {
   background-color: white;
   color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 14px;
 }

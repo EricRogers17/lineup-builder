@@ -4,5 +4,19 @@
   <span class="example-fill-remaining-space"></span>
 
 
-  <button class="import-button" mat-button>Import CSV File</button>
+    <!-- <input
+      type="file"
+      name="file"
+      id="file"
+      accept=".csv"
+      (change)="onImportFile($event)">
+      <label for="file">Import CSV File</label> -->
+  <input
+    class="importfile"
+    type="file"
+    id="file"
+    accept=".csv"
+    (change)="onImportFile($event)">
+  <label class="importlabel" for="file">Import CSV File</label>
+
 </mat-toolbar>

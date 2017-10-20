@@ -9,7 +9,7 @@ import 'rxjs/add/observable/of';
   styleUrls: ['./player-list.component.css']
 })
 export class PlayerListComponent {
-  displayedColumns = ['name', 'FPPG', 'played', 'salary'];
+  displayedColumns = ['name', 'FPPG', 'played', 'salary', 'add-remove'];
   dataSource = new ExampleDataSource();
 }
 
