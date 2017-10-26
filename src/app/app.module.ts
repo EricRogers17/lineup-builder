@@ -14,6 +14,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PlayerListComponent } from './player-list/player-list.component';
 import { MyLineupComponent } from './my-lineup/my-lineup.component';
+import { ImportService } from './shared/import.service';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,7 @@ import { MyLineupComponent } from './my-lineup/my-lineup.component';
     MatTableModule,
     MatListModule
   ],
-  providers: [],
+  providers: [ImportService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
